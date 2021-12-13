@@ -31,8 +31,15 @@ for job in allJobs:
 
 #Print all Titles Jobs 
 print(titre_offre) 
-
 #Print all Date Pub 
 print(date_offre) 
 #Print all Resume 
 print(resume_offre)
+
+import pandas as pd
+dfJobs = pd.DataFrame({
+  'TITRE_OFFRE': titre_offre,
+  'DATE_PUB_OFFRE': date_offre,
+  'RESUME_OFFRE': resume_offre 
+})
+dfJobs.to_csv('jobs.csv')
