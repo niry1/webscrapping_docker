@@ -30,11 +30,11 @@ for job in allJobs:
     resume_offre.append(resume) 
 
 #Print all Titles Jobs 
-print(titre_offre) 
+#print(titre_offre) 
 #Print all Date Pub 
-print(date_offre) 
+#print(date_offre) 
 #Print all Resume 
-print(resume_offre)
+#print(resume_offre)
 
 import pandas as pd
 dfJobs = pd.DataFrame({
