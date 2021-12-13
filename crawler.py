@@ -41,4 +41,4 @@ dfJobs = pd.DataFrame({
   'DATE_PUB_OFFRE': date_offre,
   'RESUME_OFFRE': resume_offre 
 })
-dfJobs.to_csv('jobs.csv')
+dfJobs.to_csv('/home/niry/web-scrapping/jobs.csv')
